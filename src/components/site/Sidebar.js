@@ -20,6 +20,9 @@ const Sidebar = () => (
         <li><Link to="/propsdemo">Props Demo</Link></li>
         <li><Link to="/lifecyclediagram">Life Cycle Diagram</Link></li>
         <li><Link to="/timer">Timers</Link></li>
+        <li><Link to="/nytapp">New York Times</Link></li>
+        <li><Link to="/reactconceptlist">React Concepts Checklist</Link></li>
+        <li><Link to="/movie">Movie Search App</Link></li>
         <li><Link to="/resources">Resources</Link></li>
 
       </ul>

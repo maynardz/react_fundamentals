@@ -7,6 +7,9 @@ import ClassComponentDemo from '../concepts/ClassComponentDemo';
 import PropsDemo from '../concepts/PropsDemo';
 import LifeCycleCodepen from '../concepts/LifeCycleCodepen';
 import TimePiecesApp from '../apps/timer-apps/TimePiecesApp';
+import NytApp from '../apps/nyt-app/NytApp';
+import ReactConceptsApp from '../apps/concept-list-app/ReactConceptsApp';
+import MovieSearchApp from '../apps/movie-search-app/MovieApp'
 
 export const routes = [
     {
@@ -44,6 +47,21 @@ export const routes = [
       path: '/timer',
       exact: true,
       main: () => <TimePiecesApp />
+    },
+    {
+      path: '/nytapp',
+      exact: true,
+      main: () => <NytApp />
+    },
+    {
+      path: '/reactconceptlist',
+      exact: true,
+      main: () => <ReactConceptsApp />
+    },
+    {
+      path: '/movie',
+      exact: true,
+      main: () => <MovieSearchApp />
     },
     {
       path: '/resources',
